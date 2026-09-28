@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/slicekey",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slice validation gates for key inputs before they hit prod.",
+  "bin": {
+    "slicekey": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/slicekey.git"
+  },
+  "homepage": "https://theworker02.github.io/slicekey/",
+  "keywords": [
+    "slice",
+    "key",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
